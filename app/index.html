@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Editable content</title>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body ng-app="makeeditableApp">
+		<div id="container" controller="makeeditableCtrl">
+			<div make-editable>
+			    <p>Content that will become editable when the directive rendered.</p>
+			</div>
+			<div make-editable>
+				<p> Loren ipsum blah blah blah </p>
+			</div>
+		</div>	
+	</body>
+</html>
